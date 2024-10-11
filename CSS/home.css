@@ -1,0 +1,30 @@
+.header-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav1{
+    display: flex;
+    flex-direction: row;
+    background-color: #EBD536;
+    position: fixed;
+    width: 97.6%;
+    padding: 10px;
+    font-size: xx-large;
+    color:red;
+    font-family: 'JI Burrito', sans-serif;
+    
+}
+
+.nav2{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top:238px ;
+    margin-top: 10px;
+    width: 98.9%;
+    font-size: large;
+    justify-content: space-evenly;
+    background-color: lightskyblue;
+}
+
