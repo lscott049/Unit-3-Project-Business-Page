@@ -1,16 +1,41 @@
 .container{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 100px;
-    grid-template-areas: "chicken_sandwich fries soda . .";
+    margin-left: 100px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: "chicken_sandwich fries soda nuggets"
+                        "tenders tacos enchiladas guacamole"
+                        "pozole . . .";
 }
 
 .item-1{grid-area: chicken_sandwich;}
 .item-2{grid-area: fries;}
 .item-3{grid-area: soda;}
+.item-4{grid-area: nuggets;}
+.item-5{grid-area: tenders;}
+.item-6{grid-area: tacos;}
+.item-7{grid-area: enchiladas;}
+.item-8{grid-area: guacamole;}
+.item-9{grid-area: pozole;}
 
 #items{
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
 }
 
+.navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: #EBD536;
+    width: 97.6%;
+    padding: 10px;
+    font-size: xx-large;
+    color:red;
+    font-family: 'JI Burrito', sans-serif;
+    position: fixed;
+    top: 0;
+}
+
+.space-fix{
+    margin-top: 300px;
+}
