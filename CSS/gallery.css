@@ -1,3 +1,8 @@
+@font-face {
+    font-family: myFont;
+    src: url(/Fonts/los.ttf);
+}
+
 .container{
     display: grid;
     margin-left: 100px;
@@ -26,6 +31,7 @@
 .navbar{
     display: flex;
     flex-direction: row;
+    align-items: center;
     background-color: #EBD536;
     width: 97.6%;
     padding: 10px;
@@ -38,4 +44,9 @@
 
 .space-fix{
     margin-top: 300px;
+}
+
+h1{
+    font-family: myFont;
+    font-size: 100px;
 }
