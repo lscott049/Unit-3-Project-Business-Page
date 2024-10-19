@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/form.css">
+    <title>Order Form</title>
+</head>
+<body>
+    <h1>Payment Form</h1>
+
+    <div class="container">
+        <fieldset>
+        <legend>Personal Information</legend>
+        <label for="name">Full Name:</label>
+        <input type="text" placeholder="Jane Doe">
+        <input type="text" id="address" placeholder="Street Address">
+        <input type="text" id="address" placeholder="City">
+        <input type="text" id="address" placeholder="State">
+        <input type="text" id="address" placeholder="Zip Code">
+    </fieldset>
+
+    <fieldset>
+        <legend>Payment Information</legend>
+
+        <select name="Selection" id="card">
+            <option value="option">Select Payment Option</option>
+            <option value="visa">Visa</option>
+            <option value="mastercard">Mastercard</option>
+            <option value="paypal">PayPal</option>
+            <option value="american">American Express</option>
+        </select>
+        <label for="number">Card Number</label>
+        <input type="number" placeholder="0000 0000 0000 0000">
+        <label for="phone">Phone:</label>
+            <input type="number" id="phone" placeholder="555-555-5555">
+            <select name="order">
+                <option value="select">Select Your Order</option>
+                <option value="sandwich">Chicken Sandwich</option>
+                <option value="fries">French Fries</option>
+                <option value="soda">Sodies</option>
+                <option value="nuggets">Chicken Nuggets</option>
+                <option value="tenders"> Todd's Tenders</option>
+                <option value="tacos">Chicken Tacos</option>
+                <option value="enchaladas">Ehrmantraut Enchaladas</option>
+                <option value="guac">Gus Guacamole</option>
+                <option value="pozole">Pinkman Pozole</option>
+            </select>
+            <p>Unfortunately, due to being short staffed, you can only order one thing.</p>
+        </fieldset>
+    </div>
+    <a id="ordering" href="http://127.0.0.1:5500/HTML/home.html">Order Now</a>
+</body>
+</html>
